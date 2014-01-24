@@ -1,0 +1,24 @@
+timestamp: 2014-01-23 21:01:01
+Running Deployment Unit Test Suite at  timestamp: 2014-01-23 21:01:01
+Apache Unit Test
+Unit Test 1  - Is Apache Running?
+Apache process is Running at timestamp: 2014-01-23 21:01:01
+Apache is Listening at timestamp: 2014-01-23 21:01:01
+End of process
+Unit Test For MySql
+Is MySql Listening?
+Is MySql Running?
+1
+Mysql is Running at timestamp: 2014-01-23 21:01:01
+Mysql is Listening at timestamp: 2014-01-23 21:01:01
+End of Process
+Running a Clean Deploy at  timestamp: 2014-01-23 21:01:01
+Using sandbox sandbox_16098
+ * Stopping web server apache2
+   ...done.
+Rather than invoking init scripts through /etc/init.d, use the service(8)
+utility, e.g. service mysql stop
+
+Since the script you are attempting to invoke has been converted to an
+Upstart job, you may also use the stop(8) utility, e.g. stop mysql
+Cloning into 'NCIRL'...
